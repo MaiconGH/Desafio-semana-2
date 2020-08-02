@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+header{
+    background-color: #000103;
+    color: white;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    z-index: 10;
+}
+#logo{
+    padding-top: 5px;
+    width: 60px;
+    float: left;
+    height: 50px;
+}
+li{
+    float: left;
+    padding: 10px;
+}
+li:hover{
+    background-color: sandybrown;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    font-size: 17px;
+}
+#imagefundo{
+   background: url(img/escuromed.jpg) ; 
+   height: 100%;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   text-align: center;
+   height: 700px;
+   background-image: fixed;
+   margin-top: -70px;
+}   
+#titulo{
+    letter-spacing: 5px;
+    color: white;
+    padding-right: 450px;
+    padding-top: 20%;
+    font-size: 100px;
+    line-height: 0.6;
+}
+#subtitulo{
+    letter-spacing: 2px;
+    color:white;
+    margin-right: 50%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+#texto1{
+    background-color: #e9e9e9;
+    float: right;
+#texto2{
+    font-size: 40px;
+    text-align: center;
+}
+#paragrafo1{
+    text-align: right;
+    padding: 40px;
+    padding-left: 50px;
+}
+#vento{
+    width: 500px;
+    height: 367px;
+    float: left;
+}
+    /*height: 100%;
+    font-size: 20px;
+    padding: 20px;
+    color: #FCC30B;
+    background-color: #312605;
+    font-family: Arial, Helvetica, sans-serif;*/
+}
+/*.titulo{
+    text-align: center;
+    margin-top: -70px;
+    font-size: 30px;
+    color:#ffd64f;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ods{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -54px;
+    font-size: 30px;
+    color:#ffd64f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foto{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+}
+a {
+    position: relative;
+    color: #FCD658;
+    text-decoration: none;  
+  }
+  a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #FCC30B;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }*/
